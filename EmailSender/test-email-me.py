@@ -6,7 +6,7 @@ import smtplib
 
 smtp = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 
-#smtp.login('jean@dca.ufrn.br', 'passwd')
+smtp.login('beltrano@gmail.com', 'passwd')
 
 de = 'beltrano@gmail.com'
 para = ['fulano@gmail.com']
